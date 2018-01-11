@@ -1,0 +1,20 @@
+1. Install all required packages using requirements.txt preferably in a virtual environment
+
+2.  Use the following command to activate the virtual environment.
+        source /bin/activate
+
+3.   Install MySQL on your system using the official documentation:      
+        http://dev.mysql.com/downloads/
+
+4. Extract the database from the sqldump file using the following command:
+           mysql -u root -p --one-database destdbname db.sql
+
+5. To run the server on localhost, run the following commands:
+        cd my_proj/src 
+        python manage.py runserver
+
+6. The website now is ready to use.
+
+The screenshots of the working web application are in the 'screenshots' folder.
+
+
